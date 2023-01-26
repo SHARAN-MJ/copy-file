@@ -18,10 +18,12 @@ The content in the original file will be copied in the new file.
 ### Step 6: 
 End the program.
 ## PROGRAM:
+```
 with open("sample1.txt", "r") as firstfile:
     with open("sample2.txt", "a") as secondfile:
         for line in firstfile:
             secondfile.write(line)
+```
 ### OUTPUT:
 ![output](./Screenshot_20230126_015627.png)
 ![output](./Screenshot_20230126_015643.png)
